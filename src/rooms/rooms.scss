@@ -1,0 +1,64 @@
+.navigation {
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.wrap {
+  text-align: center;
+}
+.summery {
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  &__description {
+    padding: 20px;
+    position: relative;
+    h2 {
+      text-align: center;
+      display: inline-block;
+      font-size: 18px;
+      margin: 5px 0;
+    }
+  }
+  &__availability {
+    margin: 5px 0;
+    font-size: 38px;
+    display: block;
+  }
+  &__details {
+
+  }
+
+  &__btn {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    border: none;
+    background: none;
+    height: 50%;
+    width: 125px;
+  }
+}
+
+.room {
+  &__equipment {
+    text-align: left;
+  }
+
+  &__page {
+    display: inline-block;
+  }
+  &__gallery {
+    display: inline-block;
+  }
+
+  &__btn--close {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+    transform: rotate(45deg);
+    background: none;
+    outline: none;
+  }
+}

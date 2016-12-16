@@ -1,0 +1,37 @@
+.timeline {
+  ul {
+    height:45px;
+  }
+  &__step {
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+    background: #e32e1f;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    span {
+      display: none;
+    }
+    &:hover {
+      width: 70px;
+      height:50%;
+      span {
+        display: block;
+      }
+    }
+  }
+}
+//&:after {
+//  width: 5px;
+//  height: 5px;
+//  content: " ";
+//  position: absolute;
+//  left: 15px;
+//  bottom: -2px;
+//  z-index: 8;
+//  transform: rotate(45deg);
+//  background: black;
+//  border: 1px solid black;
+//}

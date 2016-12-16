@@ -1,0 +1,5 @@
+<div class="timeline">
+    <ul>
+        <li class="timeline__step" ng-repeat="step in vm.hours track by $index"><span>{{step | timeStrToDateTime | date: 'hh:mm a'}}</span></li>
+    </ul>
+</div>
